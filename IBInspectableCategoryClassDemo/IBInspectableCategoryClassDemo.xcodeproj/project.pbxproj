@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C62BC33A1FCD218900A345BD /* UIAlertController+Window.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC31C1FCD218800A345BD /* UIAlertController+Window.m */; };
+		C62BC33B1FCD218900A345BD /* NSMutableArray+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC31F1FCD218800A345BD /* NSMutableArray+Convenience.m */; };
+		C62BC33C1FCD218900A345BD /* DeleteActionTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3221FCD218800A345BD /* DeleteActionTextField.m */; };
+		C62BC33D1FCD218900A345BD /* UITextField+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3241FCD218800A345BD /* UITextField+Utility.m */; };
+		C62BC33E1FCD218900A345BD /* UIButton+DynamicFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3271FCD218800A345BD /* UIButton+DynamicFontSize.m */; };
+		C62BC33F1FCD218900A345BD /* UILabel+DynamicFontSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC32A1FCD218800A345BD /* UILabel+DynamicFontSize.m */; };
+		C62BC3401FCD218900A345BD /* NSDictionary+DPJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC32D1FCD218800A345BD /* NSDictionary+DPJSONString.m */; };
+		C62BC3411FCD218900A345BD /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3301FCD218900A345BD /* UIPlaceHolderTextView.m */; };
+		C62BC3421FCD218900A345BD /* UIViewController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3331FCD218900A345BD /* UIViewController+StatusBarStyle.m */; };
+		C62BC3431FCD218900A345BD /* NSArray+DPJSONString.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3361FCD218900A345BD /* NSArray+DPJSONString.m */; };
+		C62BC3441FCD218900A345BD /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C62BC3391FCD218900A345BD /* UIView+Utility.m */; };
 		C66A721A1F00D6E20076DB95 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A72191F00D6E20076DB95 /* main.m */; };
 		C66A721D1F00D6E20076DB95 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A721C1F00D6E20076DB95 /* AppDelegate.m */; };
 		C66A72201F00D6E20076DB95 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A721F1F00D6E20076DB95 /* ViewController.m */; };
 		C66A72231F00D6E20076DB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66A72211F00D6E20076DB95 /* Main.storyboard */; };
 		C66A72251F00D6E20076DB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66A72241F00D6E20076DB95 /* Assets.xcassets */; };
 		C66A72281F00D6E30076DB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66A72261F00D6E30076DB95 /* LaunchScreen.storyboard */; };
-		C66A72341F00D7200076DB95 /* UITextField+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A72311F00D7200076DB95 /* UITextField+Utility.m */; };
-		C66A72351F00D7200076DB95 /* UIView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A72331F00D7200076DB95 /* UIView+Utility.m */; };
-		C66A72391F00D7660076DB95 /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = C66A72381F00D7660076DB95 /* UIPlaceHolderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C62BC31B1FCD218800A345BD /* UIAlertController+Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Window.h"; sourceTree = "<group>"; };
+		C62BC31C1FCD218800A345BD /* UIAlertController+Window.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Window.m"; sourceTree = "<group>"; };
+		C62BC31E1FCD218800A345BD /* NSMutableArray+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Convenience.h"; sourceTree = "<group>"; };
+		C62BC31F1FCD218800A345BD /* NSMutableArray+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Convenience.m"; sourceTree = "<group>"; };
+		C62BC3211FCD218800A345BD /* DeleteActionTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteActionTextField.h; sourceTree = "<group>"; };
+		C62BC3221FCD218800A345BD /* DeleteActionTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteActionTextField.m; sourceTree = "<group>"; };
+		C62BC3231FCD218800A345BD /* UITextField+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Utility.h"; sourceTree = "<group>"; };
+		C62BC3241FCD218800A345BD /* UITextField+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Utility.m"; sourceTree = "<group>"; };
+		C62BC3261FCD218800A345BD /* UIButton+DynamicFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DynamicFontSize.h"; sourceTree = "<group>"; };
+		C62BC3271FCD218800A345BD /* UIButton+DynamicFontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DynamicFontSize.m"; sourceTree = "<group>"; };
+		C62BC3291FCD218800A345BD /* UILabel+DynamicFontSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DynamicFontSize.h"; sourceTree = "<group>"; };
+		C62BC32A1FCD218800A345BD /* UILabel+DynamicFontSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DynamicFontSize.m"; sourceTree = "<group>"; };
+		C62BC32C1FCD218800A345BD /* NSDictionary+DPJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+DPJSONString.h"; sourceTree = "<group>"; };
+		C62BC32D1FCD218800A345BD /* NSDictionary+DPJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+DPJSONString.m"; sourceTree = "<group>"; };
+		C62BC32F1FCD218900A345BD /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		C62BC3301FCD218900A345BD /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
+		C62BC3321FCD218900A345BD /* UIViewController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		C62BC3331FCD218900A345BD /* UIViewController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+StatusBarStyle.m"; sourceTree = "<group>"; };
+		C62BC3351FCD218900A345BD /* NSArray+DPJSONString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+DPJSONString.h"; sourceTree = "<group>"; };
+		C62BC3361FCD218900A345BD /* NSArray+DPJSONString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+DPJSONString.m"; sourceTree = "<group>"; };
+		C62BC3381FCD218900A345BD /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
+		C62BC3391FCD218900A345BD /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
 		C66A72151F00D6E20076DB95 /* IBInspectableCategoryClassDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBInspectableCategoryClassDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66A72191F00D6E20076DB95 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C66A721B1F00D6E20076DB95 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,12 +59,6 @@
 		C66A72241F00D6E20076DB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66A72271F00D6E30076DB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66A72291F00D6E30076DB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C66A72301F00D7200076DB95 /* UITextField+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Utility.h"; sourceTree = "<group>"; };
-		C66A72311F00D7200076DB95 /* UITextField+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Utility.m"; sourceTree = "<group>"; };
-		C66A72321F00D7200076DB95 /* UIView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utility.h"; sourceTree = "<group>"; };
-		C66A72331F00D7200076DB95 /* UIView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utility.m"; sourceTree = "<group>"; };
-		C66A72371F00D7660076DB95 /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
-		C66A72381F00D7660076DB95 /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +72,118 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C62BC31A1FCD218800A345BD /* UIAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC31B1FCD218800A345BD /* UIAlertController+Window.h */,
+				C62BC31C1FCD218800A345BD /* UIAlertController+Window.m */,
+			);
+			path = UIAlertViewController;
+			sourceTree = "<group>";
+		};
+		C62BC31D1FCD218800A345BD /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC31E1FCD218800A345BD /* NSMutableArray+Convenience.h */,
+				C62BC31F1FCD218800A345BD /* NSMutableArray+Convenience.m */,
+			);
+			path = NSMutableArray;
+			sourceTree = "<group>";
+		};
+		C62BC3201FCD218800A345BD /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3231FCD218800A345BD /* UITextField+Utility.h */,
+				C62BC3241FCD218800A345BD /* UITextField+Utility.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		C62BC3251FCD218800A345BD /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3261FCD218800A345BD /* UIButton+DynamicFontSize.h */,
+				C62BC3271FCD218800A345BD /* UIButton+DynamicFontSize.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		C62BC3281FCD218800A345BD /* UILable */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3291FCD218800A345BD /* UILabel+DynamicFontSize.h */,
+				C62BC32A1FCD218800A345BD /* UILabel+DynamicFontSize.m */,
+			);
+			path = UILable;
+			sourceTree = "<group>";
+		};
+		C62BC32B1FCD218800A345BD /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC32C1FCD218800A345BD /* NSDictionary+DPJSONString.h */,
+				C62BC32D1FCD218800A345BD /* NSDictionary+DPJSONString.m */,
+			);
+			path = NSDictionary;
+			sourceTree = "<group>";
+		};
+		C62BC32E1FCD218900A345BD /* UIPlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC32F1FCD218900A345BD /* UIPlaceHolderTextView.h */,
+				C62BC3301FCD218900A345BD /* UIPlaceHolderTextView.m */,
+			);
+			path = UIPlaceHolder;
+			sourceTree = "<group>";
+		};
+		C62BC3311FCD218900A345BD /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3321FCD218900A345BD /* UIViewController+StatusBarStyle.h */,
+				C62BC3331FCD218900A345BD /* UIViewController+StatusBarStyle.m */,
+			);
+			path = UIViewController;
+			sourceTree = "<group>";
+		};
+		C62BC3341FCD218900A345BD /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3351FCD218900A345BD /* NSArray+DPJSONString.h */,
+				C62BC3361FCD218900A345BD /* NSArray+DPJSONString.m */,
+			);
+			path = NSArray;
+			sourceTree = "<group>";
+		};
+		C62BC3371FCD218900A345BD /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3381FCD218900A345BD /* UIView+Utility.h */,
+				C62BC3391FCD218900A345BD /* UIView+Utility.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		C62BC3451FCD24B600A345BD /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3211FCD218800A345BD /* DeleteActionTextField.h */,
+				C62BC3221FCD218800A345BD /* DeleteActionTextField.m */,
+			);
+			name = UITextField;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C62BC3471FCD251200A345BD /* OtherCategoryClass */ = {
+			isa = PBXGroup;
+			children = (
+				C62BC3341FCD218900A345BD /* NSArray */,
+				C62BC32B1FCD218800A345BD /* NSDictionary */,
+				C62BC31D1FCD218800A345BD /* NSMutableArray */,
+				C62BC31A1FCD218800A345BD /* UIAlertViewController */,
+				C62BC3311FCD218900A345BD /* UIViewController */,
+			);
+			path = OtherCategoryClass;
+			sourceTree = "<group>";
+		};
 		C66A720C1F00D6E10076DB95 = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +203,9 @@
 		C66A72171F00D6E20076DB95 /* IBInspectableCategoryClassDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C66A72361F00D72B0076DB95 /* IBDesignableUITextViewClass */,
-				C66A722F1F00D6FB0076DB95 /* IBInspectableCategoeyClass */,
+				C66A722F1F00D6FB0076DB95 /* IBInspectableCategoryClass */,
+				C66A72361F00D72B0076DB95 /* IBDesignableClass */,
+				C62BC3471FCD251200A345BD /* OtherCategoryClass */,
 				C66A721B1F00D6E20076DB95 /* AppDelegate.h */,
 				C66A721C1F00D6E20076DB95 /* AppDelegate.m */,
 				C66A721E1F00D6E20076DB95 /* ViewController.h */,
@@ -90,24 +227,24 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C66A722F1F00D6FB0076DB95 /* IBInspectableCategoeyClass */ = {
+		C66A722F1F00D6FB0076DB95 /* IBInspectableCategoryClass */ = {
 			isa = PBXGroup;
 			children = (
-				C66A72301F00D7200076DB95 /* UITextField+Utility.h */,
-				C66A72311F00D7200076DB95 /* UITextField+Utility.m */,
-				C66A72321F00D7200076DB95 /* UIView+Utility.h */,
-				C66A72331F00D7200076DB95 /* UIView+Utility.m */,
+				C62BC3281FCD218800A345BD /* UILable */,
+				C62BC3251FCD218800A345BD /* UIButton */,
+				C62BC3201FCD218800A345BD /* UITextField */,
+				C62BC3371FCD218900A345BD /* UIView */,
 			);
-			name = IBInspectableCategoeyClass;
+			name = IBInspectableCategoryClass;
 			sourceTree = "<group>";
 		};
-		C66A72361F00D72B0076DB95 /* IBDesignableUITextViewClass */ = {
+		C66A72361F00D72B0076DB95 /* IBDesignableClass */ = {
 			isa = PBXGroup;
 			children = (
-				C66A72371F00D7660076DB95 /* UIPlaceHolderTextView.h */,
-				C66A72381F00D7660076DB95 /* UIPlaceHolderTextView.m */,
+				C62BC3451FCD24B600A345BD /* UITextField */,
+				C62BC32E1FCD218900A345BD /* UIPlaceHolder */,
 			);
-			name = IBDesignableUITextViewClass;
+			name = IBDesignableClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +273,7 @@
 		C66A720D1F00D6E20076DB95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = datt;
 				TargetAttributes = {
 					C66A72141F00D6E20076DB95 = {
@@ -181,12 +318,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C62BC33D1FCD218900A345BD /* UITextField+Utility.m in Sources */,
+				C62BC3401FCD218900A345BD /* NSDictionary+DPJSONString.m in Sources */,
+				C62BC33E1FCD218900A345BD /* UIButton+DynamicFontSize.m in Sources */,
 				C66A72201F00D6E20076DB95 /* ViewController.m in Sources */,
-				C66A72391F00D7660076DB95 /* UIPlaceHolderTextView.m in Sources */,
 				C66A721D1F00D6E20076DB95 /* AppDelegate.m in Sources */,
-				C66A72351F00D7200076DB95 /* UIView+Utility.m in Sources */,
-				C66A72341F00D7200076DB95 /* UITextField+Utility.m in Sources */,
+				C62BC3441FCD218900A345BD /* UIView+Utility.m in Sources */,
+				C62BC33A1FCD218900A345BD /* UIAlertController+Window.m in Sources */,
+				C62BC33F1FCD218900A345BD /* UILabel+DynamicFontSize.m in Sources */,
+				C62BC33C1FCD218900A345BD /* DeleteActionTextField.m in Sources */,
+				C62BC3431FCD218900A345BD /* NSArray+DPJSONString.m in Sources */,
+				C62BC3411FCD218900A345BD /* UIPlaceHolderTextView.m in Sources */,
 				C66A721A1F00D6E20076DB95 /* main.m in Sources */,
+				C62BC3421FCD218900A345BD /* UIViewController+StatusBarStyle.m in Sources */,
+				C62BC33B1FCD218900A345BD /* NSMutableArray+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,7 +366,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -229,7 +376,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -268,7 +419,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -276,7 +429,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -343,6 +500,7 @@
 				C66A722E1F00D6E30076DB95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,7 +1,5 @@
 //
 //  UIPlaceHolderTextView.m
-//
-//  Created by datt on 3/2/17.
 //  Copyright © 2017 datt. All rights reserved.
 //
 
