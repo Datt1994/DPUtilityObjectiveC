@@ -4,6 +4,11 @@
 //
 
 #import <UIKit/UIKit.h>
+
+IB_DESIGNABLE
+@interface UITextViewFixed : UITextView
+@end
+
 IB_DESIGNABLE
 @interface UIPlaceHolderTextView : UITextView
 

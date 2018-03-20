@@ -17,4 +17,10 @@
   }
 }
 
+-(void)setBackgroundImage:(UIImage *)backgroundImg {
+    
+    UIColor *color = [UIColor colorWithPatternImage:backgroundImg];
+    self.backgroundColor = color;
+}
+
 @end

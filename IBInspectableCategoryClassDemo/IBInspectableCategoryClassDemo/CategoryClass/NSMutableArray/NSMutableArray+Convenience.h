@@ -7,4 +7,5 @@
 
 @interface NSMutableArray(Convenience)
 - (void)moveObjectAtIndex:(NSUInteger)fromIndex toIndex:(NSUInteger)toIndex;
+- (void)shuffle;
 @end

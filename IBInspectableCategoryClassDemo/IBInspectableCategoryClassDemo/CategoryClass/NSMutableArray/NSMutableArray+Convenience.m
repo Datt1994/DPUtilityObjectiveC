@@ -16,4 +16,14 @@
     [self removeObjectAtIndex:fromIndex];
     [self insertObject:object atIndex:toIndex];
 }
+- (void)shuffle {
+    
+    NSUInteger count = [self count];
+    
+    for (NSUInteger i = 0; i < count; ++i) {
+        NSUInteger remainingCount = count - i;
+        NSUInteger exchangeIndex = i + arc4random_uniform((u_int32_t)remainingCount);
+        [self exchangeObjectAtIndex:i withObjectAtIndex:exchangeIndex];
+    }
+}
 @end

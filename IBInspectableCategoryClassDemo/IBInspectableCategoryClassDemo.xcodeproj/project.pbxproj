@@ -24,6 +24,10 @@
 		C66A72231F00D6E20076DB95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66A72211F00D6E20076DB95 /* Main.storyboard */; };
 		C66A72251F00D6E20076DB95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C66A72241F00D6E20076DB95 /* Assets.xcassets */; };
 		C66A72281F00D6E30076DB95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C66A72261F00D6E30076DB95 /* LaunchScreen.storyboard */; };
+		C6CF43822060E50200A32F8A /* NSString+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CF43812060E50200A32F8A /* NSString+Utility.m */; };
+		C6CF43862060E7EF00A32F8A /* NSDate+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CF43852060E7EF00A32F8A /* NSDate+Utility.m */; };
+		C6CF438A2060EE9B00A32F8A /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CF43892060EE9B00A32F8A /* UIColor+Utility.m */; };
+		C6CF43912060EFDB00A32F8A /* UIImage+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CF43902060EFDB00A32F8A /* UIImage+Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +63,14 @@
 		C66A72241F00D6E20076DB95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C66A72271F00D6E30076DB95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C66A72291F00D6E30076DB95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6CF43802060E50200A32F8A /* NSString+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Utility.h"; sourceTree = "<group>"; };
+		C6CF43812060E50200A32F8A /* NSString+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utility.m"; sourceTree = "<group>"; };
+		C6CF43842060E7EF00A32F8A /* NSDate+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utility.h"; sourceTree = "<group>"; };
+		C6CF43852060E7EF00A32F8A /* NSDate+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utility.m"; sourceTree = "<group>"; };
+		C6CF43882060EE9B00A32F8A /* UIColor+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		C6CF43892060EE9B00A32F8A /* UIColor+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
+		C6CF438F2060EFDB00A32F8A /* UIImage+Utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utility.h"; sourceTree = "<group>"; };
+		C6CF43902060EFDB00A32F8A /* UIImage+Utility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utility.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,16 +184,20 @@
 			path = "New Group";
 			sourceTree = "<group>";
 		};
-		C62BC3471FCD251200A345BD /* OtherCategoryClass */ = {
+		C62BC3471FCD251200A345BD /* CategoryClass */ = {
 			isa = PBXGroup;
 			children = (
+				C6CF438B2060EFA800A32F8A /* UIImage */,
+				C6CF43872060EE7000A32F8A /* UIColor */,
+				C6CF43832060E7CE00A32F8A /* NSDate */,
+				C6CF437F2060E4CA00A32F8A /* NSString */,
 				C62BC3341FCD218900A345BD /* NSArray */,
 				C62BC32B1FCD218800A345BD /* NSDictionary */,
 				C62BC31D1FCD218800A345BD /* NSMutableArray */,
 				C62BC31A1FCD218800A345BD /* UIAlertViewController */,
 				C62BC3311FCD218900A345BD /* UIViewController */,
 			);
-			path = OtherCategoryClass;
+			path = CategoryClass;
 			sourceTree = "<group>";
 		};
 		C66A720C1F00D6E10076DB95 = {
@@ -205,7 +221,7 @@
 			children = (
 				C66A722F1F00D6FB0076DB95 /* IBInspectableCategoryClass */,
 				C66A72361F00D72B0076DB95 /* IBDesignableClass */,
-				C62BC3471FCD251200A345BD /* OtherCategoryClass */,
+				C62BC3471FCD251200A345BD /* CategoryClass */,
 				C66A721B1F00D6E20076DB95 /* AppDelegate.h */,
 				C66A721C1F00D6E20076DB95 /* AppDelegate.m */,
 				C66A721E1F00D6E20076DB95 /* ViewController.h */,
@@ -230,10 +246,10 @@
 		C66A722F1F00D6FB0076DB95 /* IBInspectableCategoryClass */ = {
 			isa = PBXGroup;
 			children = (
+				C62BC3371FCD218900A345BD /* UIView */,
 				C62BC3281FCD218800A345BD /* UILable */,
 				C62BC3251FCD218800A345BD /* UIButton */,
 				C62BC3201FCD218800A345BD /* UITextField */,
-				C62BC3371FCD218900A345BD /* UIView */,
 			);
 			name = IBInspectableCategoryClass;
 			sourceTree = "<group>";
@@ -245,6 +261,42 @@
 				C62BC32E1FCD218900A345BD /* UIPlaceHolder */,
 			);
 			name = IBDesignableClass;
+			sourceTree = "<group>";
+		};
+		C6CF437F2060E4CA00A32F8A /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF43802060E50200A32F8A /* NSString+Utility.h */,
+				C6CF43812060E50200A32F8A /* NSString+Utility.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		C6CF43832060E7CE00A32F8A /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF43842060E7EF00A32F8A /* NSDate+Utility.h */,
+				C6CF43852060E7EF00A32F8A /* NSDate+Utility.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		C6CF43872060EE7000A32F8A /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF43882060EE9B00A32F8A /* UIColor+Utility.h */,
+				C6CF43892060EE9B00A32F8A /* UIColor+Utility.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		C6CF438B2060EFA800A32F8A /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				C6CF438F2060EFDB00A32F8A /* UIImage+Utility.h */,
+				C6CF43902060EFDB00A32F8A /* UIImage+Utility.m */,
+			);
+			path = UIImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,11 +378,15 @@
 				C62BC3441FCD218900A345BD /* UIView+Utility.m in Sources */,
 				C62BC33A1FCD218900A345BD /* UIAlertController+Window.m in Sources */,
 				C62BC33F1FCD218900A345BD /* UILabel+DynamicFontSize.m in Sources */,
+				C6CF438A2060EE9B00A32F8A /* UIColor+Utility.m in Sources */,
 				C62BC33C1FCD218900A345BD /* DeleteActionTextField.m in Sources */,
+				C6CF43862060E7EF00A32F8A /* NSDate+Utility.m in Sources */,
 				C62BC3431FCD218900A345BD /* NSArray+DPJSONString.m in Sources */,
 				C62BC3411FCD218900A345BD /* UIPlaceHolderTextView.m in Sources */,
 				C66A721A1F00D6E20076DB95 /* main.m in Sources */,
 				C62BC3421FCD218900A345BD /* UIViewController+StatusBarStyle.m in Sources */,
+				C6CF43822060E50200A32F8A /* NSString+Utility.m in Sources */,
+				C6CF43912060EFDB00A32F8A /* UIImage+Utility.m in Sources */,
 				C62BC33B1FCD218900A345BD /* NSMutableArray+Convenience.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

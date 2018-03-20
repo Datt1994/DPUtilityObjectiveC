@@ -5,6 +5,16 @@
 
 #import "UIPlaceHolderTextView.h"
 
+
+@implementation UITextViewFixed
+- (void) layoutSubviews {
+    [super layoutSubviews];
+    self.textContainerInset = UIEdgeInsetsZero;
+    self.textContainer.lineFragmentPadding = 0;
+}
+@end
+
+
 @interface UIPlaceHolderTextView ()
 
 @property (nonatomic, retain) UILabel *placeHolderLabel;

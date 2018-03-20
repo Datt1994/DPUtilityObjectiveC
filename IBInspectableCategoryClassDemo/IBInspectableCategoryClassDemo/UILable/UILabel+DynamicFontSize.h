@@ -7,4 +7,5 @@
 @interface UILabel (DynamicFontSize)
 @property (nonatomic) IBInspectable BOOL adjustFontSize;
 
+-(void)setBackgroundImage:(UIImage *)backgroundImg;
 @end
