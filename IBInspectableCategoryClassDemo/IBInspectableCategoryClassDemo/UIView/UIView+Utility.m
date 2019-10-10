@@ -5,6 +5,10 @@
 
 #import "UIView+Utility.h"
 #import <objc/runtime.h>
+static void *topBorderContext = &topBorderContext;
+static void *bottomBorderContext = &bottomBorderContext;
+static void *leftBorderContext = &leftBorderContext;
+static void *rightBorderContext = &rightBorderContext;
 static char bottomLineColorKey,topLineColorKey,rightLineColorKey,leftLineColorKey;
 @implementation UIView(Utility)
 @dynamic borderColor,borderWidth,cornerRadius,bottomLineWidth,topLineWidth,rightLineWidth,leftLineWidth;
@@ -73,6 +77,7 @@ static char bottomLineColorKey,topLineColorKey,rightLineColorKey,leftLineColorKe
         border.backgroundColor = color.CGColor;
         border.frame = CGRectMake(0, 0, self.frame.size.width, borderWidth);
         [self.layer addSublayer:border];
+        [self addObserver:self forKeyPath: @"bounds" options:NSKeyValueObservingOptionNew context:topBorderContext];
     });
 }
 
@@ -84,6 +89,7 @@ static char bottomLineColorKey,topLineColorKey,rightLineColorKey,leftLineColorKe
         border.backgroundColor = color.CGColor;
         border.frame = CGRectMake(0, self.frame.size.height - borderWidth, self.frame.size.width, borderWidth);
         [self.layer addSublayer:border];
+        [self addObserver:self forKeyPath: @"bounds" options:NSKeyValueObservingOptionNew context:bottomBorderContext];
     });
 }
 
@@ -95,6 +101,7 @@ static char bottomLineColorKey,topLineColorKey,rightLineColorKey,leftLineColorKe
         border.backgroundColor = color.CGColor;
         border.frame = CGRectMake(0, 0, borderWidth, self.frame.size.height);
         [self.layer addSublayer:border];
+        [self addObserver:self forKeyPath: @"bounds" options:NSKeyValueObservingOptionNew context:leftBorderContext];
     });
 }
 
@@ -106,7 +113,38 @@ static char bottomLineColorKey,topLineColorKey,rightLineColorKey,leftLineColorKe
         border.backgroundColor = color.CGColor;
         border.frame = CGRectMake(self.frame.size.width - borderWidth, 0, borderWidth, self.frame.size.height);
         [self.layer addSublayer:border];
+        [self addObserver:self forKeyPath: @"bounds" options:NSKeyValueObservingOptionNew context:rightBorderContext];
     });
+}
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if (context == topBorderContext) {
+        for (CALayer *border in self.layer.sublayers) {
+            if ([border.name isEqualToString:@"topBorderLayer"]) {
+                [border setFrame:CGRectMake(0, 0, self.frame.size.width, border.frame.size.height)];
+            }
+        }
+    } else if (context == bottomBorderContext) {
+        for (CALayer *border in self.layer.sublayers) {
+            if ([border.name isEqualToString:@"bottomBorderLayer"]) {
+                [border setFrame:CGRectMake(0, self.frame.size.height - border.frame.size.height, self.frame.size.width, border.frame.size.height)];
+            }
+        }
+    } else if (context == leftBorderContext) {
+        for (CALayer *border in self.layer.sublayers) {
+            if ([border.name isEqualToString:@"leftBorderLayer"]) {
+                [border setFrame:CGRectMake(0, 0, border.frame.size.width, self.frame.size.height)];
+            }
+        }
+    } else if (context == rightBorderContext) {
+        for (CALayer *border in self.layer.sublayers) {
+            if ([border.name isEqualToString:@"rightBorderLayer"]) {
+                [border setFrame:CGRectMake(self.frame.size.width - border.frame.size.width, 0, border.frame.size.width, self.frame.size.height)];
+            }
+        }
+    } else {
+        [super observeValueForKeyPath:keyPath ofObject:object change:change context:context];
+    }
 }
 - (void)removePreviouslyAddedLayer:(NSString *)name {
     if (self.layer.sublayers.count > 0) {

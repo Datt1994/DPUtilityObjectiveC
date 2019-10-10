@@ -18,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        self.nslcViewWidth.constant = - 50;
+        [UIView animateWithDuration:0.3 animations:^{
+            [self.view layoutIfNeeded];
+        }];
+    });
 }
 
 
